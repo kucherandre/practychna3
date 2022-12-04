@@ -1,0 +1,1026 @@
+strings = input("Enter word in English: ").upper()
+
+# A
+for string in strings:
+    if "A" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 3:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + "#"
+
+            print(row)
+
+# B
+
+    if "B" in string:
+        print("\n")
+
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 2:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 3:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 4:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 5:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+
+            print(row)
+
+# C
+
+    if "C" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 0 or j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                if i == 1:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 2:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 5:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 6:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 0 or j == 4:
+                        row = row + " "
+
+            print(row)
+
+# D
+
+    if "D" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+
+            print(row)
+
+# E
+
+    if "E" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 1:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+
+            print(row)
+
+# F
+
+    if "F" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 1:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# G
+
+    if "G" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 2:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 3 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+
+
+            print(row)
+
+# H
+
+    if "H" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 5 or i == 6:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 3:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + "#"
+
+            print(row)
+
+# I
+
+    if "I" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 2:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 4:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 5:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 6:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+
+            print(row)
+
+# J
+
+    if "J" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 2:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 4:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 5:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 1:
+                        row = row + "#"
+                    if j == 2 or j == 3 or j == 4:
+                        row = row + " "
+
+            print(row)
+
+# K
+
+    if "K" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1:
+                    if j == 0 or j == 3:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 2:
+                        row = row + "#"
+                    if j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 1:
+                        row = row + "#"
+                    if j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 2:
+                        row = row + "#"
+                    if j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 3:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# L
+
+    if "L" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 4:
+                        row = row + " "
+                if i == 0 or i == 1 or i == 2 or i == 3 or i == 4 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+
+            print(row)
+
+# M
+
+    if "M" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + "#"
+                    if j == 2:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# N
+
+    if "N" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 1 or j == 4:
+                        row = row + "#"
+                    if j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 3 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# O
+
+    if "O" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 3 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+
+            print(row)
+
+# P
+
+    if "P" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3 or j == 4:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# Q
+
+    if "Q" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 3:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 5:
+                    if j == 0 or j == 3:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 3:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + "#"
+
+            print(row)
+
+# R
+
+    if "R" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 2:
+                        row = row + "#"
+                    if j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 3:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 4:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# S
+
+    if "S" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                    if j == 0:
+                        row = row + " "
+                if i == 1:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 0 or j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 4:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 5:
+                    if j == 4:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+
+            print(row)
+
+# T
+
+    if "T" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 1:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 2:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 4:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 5:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                    if j == 2:
+                        row = row + "#"
+
+            print(row)
+
+# U
+
+    if "U" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 3 or i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0:
+                        row = row + " "
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + "#"
+
+            print(row)
+
+# V
+
+    if "V" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 4:
+                        row = row + " "
+                if i == 1 or i == 2 or i == 4 or i == 3:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                    if j == 4:
+                        row = row + "#"
+                if i == 5:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + " "
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 6:
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                    if j == 2:
+                        row = row + "#"
+
+            print(row)
+
+# W
+
+    if "W" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 3:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 3:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + "#"
+                    if j == 2:
+                        row = row + " "
+                if i == 5:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# X
+
+    if "X" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + " "
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + " "
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 5:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+
+            print(row)
+
+# Y
+
+    if "Y" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 1:
+                    if j == 0 or j == 4:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 0 or j == 2 or j == 4:
+                        row = row + " "
+                    if j == 1 or j == 3:
+                        row = row + "#"
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 5:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 6:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+
+            print(row)
+
+# Z
+
+    if "Z" in string:
+        print("\n")
+        for i in range(7):
+            row = ""
+            for j in range(5):
+                if i == 0:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+                if i == 1:
+                    if j == 4:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 2 or j == 3:
+                        row = row + " "
+                if i == 2:
+                    if j == 3:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 2 or j == 4:
+                        row = row + " "
+                if i == 3:
+                    if j == 2:
+                        row = row + "#"
+                    if j == 0 or j == 1 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 4:
+                    if j == 1:
+                        row = row + "#"
+                    if j == 0 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 5:
+                    if j == 0:
+                        row = row + "#"
+                    if j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + " "
+                if i == 6:
+                    if j == 0 or j == 1 or j == 2 or j == 3 or j == 4:
+                        row = row + "#"
+
+            print(row)
